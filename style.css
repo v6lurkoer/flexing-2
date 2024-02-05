@@ -1,0 +1,48 @@
+/* main container */
+#container {
+  border: 2px solid black;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  flex-wrap: wrap;
+}
+
+/* image and respective container */
+.willow-div {
+  /* border: 1px solid black; */
+  display: flex;
+  /* background-color: blanchedalmond; */
+  align-items: center;
+}
+
+img {
+  display: block;
+  /* padding: 4px 4px 4px 4px; */
+}
+
+/* hiragana container and content */
+#hiragana-container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex: 1;
+  gap: 4px;
+  /* padding: 4px; */
+  flex-wrap: wrap;
+}
+
+.hiragana {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+  width: max-content;
+}
