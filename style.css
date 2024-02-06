@@ -1,10 +1,15 @@
+body {
+  background-color: antiquewhite;
+}
+
 /* main container */
 #container {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   gap: 4px;
   padding: 4px;
   flex-wrap: wrap;
+  background-color:burlywood;
 }
 
 /* image and respective container */
@@ -28,12 +33,15 @@ img {
   gap: 4px;
   /* padding: 4px; */
   flex-wrap: wrap;
+  /* background-color: black; */
+  align-items: center;
 }
 
 .hiragana {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex: 1;
+  background-color: antiquewhite;
 }
 
 ul {
@@ -42,7 +50,24 @@ ul {
   flex-direction: column;
   list-style-type: none;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   padding: 0px;
   width: max-content;
+}
+
+li {
+  font-size: 20px;
+  background-color: burlywood;
+  margin: 4px;
+  padding: 2px; 
+  width: fit-content;
+}
+
+.letter-eng {
+  color: burlywood;
+}
+
+.letter-eng:hover {
+  color: black;
+  cursor: none;
 }
